@@ -1,0 +1,11 @@
+{
+  "name": "demoReactApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/UFGInsurance/demoReactApp.git",
+  "author": "Dustinyschild <dyelland@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^1.4.3"
+  }
+}
