@@ -1,6 +1,7 @@
 import React from 'react';
-import axios from 'axios'
-import IpsumItem from './ipsumData'
+import axios from 'axios';
+import IpsumItem from './ipsumData';
+import PropTypes from 'prop-types';
 
 export default class Main extends React.Component {
   constructor(){
@@ -43,5 +44,9 @@ export default class Main extends React.Component {
         }
       </div>
     )
+  }
+  
+  const PropTypes = {
+    this.props.firstName: PropTypes.string.isRequired
   }
 }

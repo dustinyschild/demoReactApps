@@ -5,9 +5,9 @@ const IpsumItem = (data) => {
   return (
     <div>
       {
-        data.data.map(para => {
+        data.data.map(paragraph => {
           return (
-            <p>{ para }</p>
+            <p>{ paragraph }</p>
           )
         })
       }
